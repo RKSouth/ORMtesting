@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --runinBand",
+    "test:watch":"npm test -- --watch",
+    "test:coverage":"npm-test -- --coverage"
   },
   "repository": {
     "type": "git",
